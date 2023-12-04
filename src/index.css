@@ -2,7 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Poppins:wght@300;400&display=swap');
+
+:root {
+
+    /* color */
+    --primary-color : #343541;
+    --secondry-color : #000000;
+
+    /* font */
+    
+    
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    background-color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.app {
+    height: 100vh;
+}
+
+.sidebar {
+    flex: 1.85;
+    background-color: #000000;
+}
+
+.main {
+    flex: 9;
+    background-color: #343541;
 }
