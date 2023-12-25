@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Poppins:wght@300;400&display=swap');
 
+/* @importrl('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Poppins:wght@300;400&display=swap'); */
 :root {
 
     /* color */
@@ -11,12 +11,7 @@
     --secondry-color : #000000;
 
     /* font */
-    
-    
 }
-
-
-
 
 * {
     margin: 0;
@@ -26,18 +21,4 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-}
-
-.app {
-    height: 100vh;
-}
-
-.sidebar {
-    flex: 1.85;
-    background-color: #000000;
-}
-
-.main {
-    flex: 9;
-    background-color: #343541;
 }
